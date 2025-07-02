@@ -1,0 +1,29 @@
+# streamlit_app/.gitignore
+
+# Environnements virtuels
+venv_streamlit_azure/
+venv/
+env/
+
+# Streamlit (décommenter après déploiement si nécessaire)
+# .streamlit/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pkl
+*.pyd
+*.so
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs.txt
